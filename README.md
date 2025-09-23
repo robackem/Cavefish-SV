@@ -2,7 +2,9 @@
 Custom scripts used for analysis of structural variants in _Astyanax mexicanus_ cavefish
 
 ## Calculating deletion allele frequencies in each population from Vg/GIRAFFE VCF output
-### Pertinent files = `calculate_deletion_allelefreqs.pl` and `GIRAFFE_vcf_keyfile.txt`
+
+`calculate_deletion_allelefreqs.pl` 
+
 This script allows you to calculate deletion allele frequencies for each population from a Vg/GIRAFFE VCF output file (subset to only deletion variants). The script is flexible for use in any analysis without editing as long as you provide an appropriate keyfile and VCF. 
 
 <ins> Script Usage </ins>
