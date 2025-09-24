@@ -42,7 +42,7 @@ numpy        1.26.4
 pandas       2.2.2  
 scipy        1.13.1
 ```
-(program run from a conda environment, see https://github.com/kr-colab/diploSHIC/tree/master for tips on installation) 
+(program run from a conda environment, see https://github.com/kr-colab/diploSHIC/tree/master for tips on installation and additional information on the use of the different commands within diploSHIC described below) 
 
 ### Step 1: Make simulated dataset using discoal  
 
