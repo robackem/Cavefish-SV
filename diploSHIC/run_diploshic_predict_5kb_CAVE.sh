@@ -1,0 +1,10 @@
+#!/bin/bash
+
+ CHROMS=(NC_064408.1)
+# CHROMS=(NC_064409.1)
+# CHROMS=(NC_064410.1 NC_064411.1 NC_064412.1 NC_064413.1 NC_064414.1 NC_064415.1 NC_064416.1 NC_064417.1 NC_064418.1 NC_064419.1 NC_064420.1 NC_064421.1 NC_064422.1 NC_064423.1 NC_064424.1 NC_064425.1 NC_064426.1 NC_064427.1 NC_064428.1 NC_064429.1 NC_064430.1 NC_064431.1 NC_064432.1)
+
+
+for CHROM in ${CHROMS[@]}; do sbatch -p astyanax --nodes=1 --ntasks=4  --mem=50gb -t 24:00:00 --mail-user=robac028@umn.edu --mail-type=FAIL \
+--wrap "./diploshic_predict_5kb.sh $CHROM"; done
+
