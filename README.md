@@ -60,10 +60,12 @@ Output is given in the form: `*.msOUT.gz.diploid.fvec`
 
 _First_, make the training sets --> `make_trainingsets_*.sh`  
 _Then_, train the model --> `model_training_*.sh`  
+Output from these steps: SurfaceModel.json and CaveModel.json
 
-### Step 4: Run diploS/HIC on empirical data (VCFs of popgen data) using fvecVCF
+### Step 4: Run diploS/HIC on empirical data (VCFs of popgen data) using fvecVCF  
 
-
+example of how this is run --> `fvecVcf_MOLINO_chrom1_5kbwindow.sh` (this step was run independently for each chromosome in each population) 
+Output is a feature vector file, like so:  `MOLINO_NC_064408.1_diploid.fvec`
 
 ### Step 5: Get sweep predictions in 5kb windows across the genome  
 
