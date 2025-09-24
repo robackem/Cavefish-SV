@@ -52,11 +52,14 @@ Output of simulated datasets under hard sweep, soft sweep, and neutral selection
 
 ### Step 2: Compute summary statistics and feature vectors on simulated data (fvecSim)   
 
-see `Cave_fvecSim.sh` & `run_Cave_fvecSim.sh` for cave model  
-see `Surface_fvecSim.sh` & `run_Surface_fvecSim.sh` for surface model  
+_see_ `Cave_fvecSim.sh` & `run_Cave_fvecSim.sh` for cave model  
+_see_ `Surface_fvecSim.sh` & `run_Surface_fvecSim.sh` for surface model  
 Output is given in the form: `*.msOUT.gz.diploid.fvec`  
 
 ### Step 3: Train diploS/HIC convoluted neural network and generate model   
+
+_First_, make the training sets --> `make_trainingsets_*.sh`  
+_Then_, train the model --> `model_training_*.sh`  
 
 ### Step 4: Run diploS/HIC on empirical data (VCFs of popgen data)  
 
