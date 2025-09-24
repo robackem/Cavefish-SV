@@ -64,8 +64,10 @@ Output from these steps: SurfaceModel.json and CaveModel.json
 
 ### Step 4: Run diploS/HIC on empirical data (VCFs of popgen data) using fvecVCF  
 
-example of how this is run --> `fvecVcf_MOLINO_chrom1_5kbwindow.sh` (this step was run independently for each chromosome in each population)   
+Example of how this is run --> `fvecVcf_MOLINO_chrom1_5kbwindow.sh` _(this step was run independently for each chromosome in each population)_   
 Output is a feature vector file, like so:  `MOLINO_NC_064408.1_diploid.fvec`
 
 ### Step 5: Get sweep predictions in 5kb windows across the genome  
 
+_see_ `diploshic_predict_5kb_CAVE.sh` & `run_diploshic_predict_5kb_CAVE.sh` for cave model / cavefish popgen data  
+_see_ `diploshic_predict_5kb_SURFACE.sh` & `run_diploshic_predict_5kb_SURFACE.sh` for surface model  / surface fish popgen data  
