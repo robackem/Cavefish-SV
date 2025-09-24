@@ -50,7 +50,7 @@ For this step we used the same demographic models for cave and surface generated
 Discoal commands = `Cave_discoal_commands.txt` and `Surface_discoal_commands.txt`  
 Output of simulated datasets under hard sweep, soft sweep, and neutral selection is given in the form: `*.msOUT.gz`
 
-### Step 2: Compute summary statistics and feature vectors on simulated data (fvecSim)   
+### Step 2: Compute summary statistics and feature vectors on simulated data using fvecSim  
 
 _see_ `Cave_fvecSim.sh` & `run_Cave_fvecSim.sh` for cave model  
 _see_ `Surface_fvecSim.sh` & `run_Surface_fvecSim.sh` for surface model  
@@ -61,7 +61,9 @@ Output is given in the form: `*.msOUT.gz.diploid.fvec`
 _First_, make the training sets --> `make_trainingsets_*.sh`  
 _Then_, train the model --> `model_training_*.sh`  
 
-### Step 4: Run diploS/HIC on empirical data (VCFs of popgen data)  
+### Step 4: Run diploS/HIC on empirical data (VCFs of popgen data) using fvecVCF
+
+
 
 ### Step 5: Get sweep predictions in 5kb windows across the genome  
 
