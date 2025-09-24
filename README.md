@@ -31,9 +31,10 @@ sample column in VCF (0-indexed value)  sample ID  population (must use consiste
 
 ## **Identifying regions of the genome under selection with diploS/HIC**
 
-<ins> Versions used for dependencies </ins> 
-keras  2.15.0
-tensorflow 2.15.0
+<ins> Versions used for dependencies </ins>  
+
+keras        2.15.0  
+tensorflow   2.15.0  
 
 ### Step 1: Make simulated dataset
 
