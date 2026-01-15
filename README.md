@@ -1,5 +1,5 @@
 # **Cavefish Structural Variation Analysis**
-Custom scripts used for analysis of structural variants in _Astyanax mexicanus_ cavefish
+Custom scripts used for analysis of structural variants in _Astyanax mexicanus_ cavefish and identifying regions of the genome under selection using machine learning
 
 -------------------------------------------------------------------------------------------------------------------
 
